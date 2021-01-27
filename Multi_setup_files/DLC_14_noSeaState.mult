@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultipleSetup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Application>Bladed</Application>
+  <AppVersion>4.8.0.41</AppVersion>
+  <AppDataModelVersion>0.8</AppDataModelVersion>
+  <SetupItems>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.WindShear.ExponentialVerticalShear.WindShearExponent</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[0]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>0.14</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TowerShadow.DiameterCorrectionFactor</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[1]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>1</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.SpeedAmplitudeOfChange</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[2]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>15</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.SpeedTimePeriod</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[3]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>10</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="EnumMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.SpeedTypeOfCycle</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="EnumMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[4]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <SpecificValues>
+        <CycleTypeEnumBindingWrapper>
+          <Value>Half</Value>
+        </CycleTypeEnumBindingWrapper>
+      </SpecificValues>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.SpeedStartValue</Path>
+      <DefinitionType>Range</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[5]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>9</From>
+        <To>13</To>
+        <Step>2</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.DirStartValue</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>0.017453292519943295</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[6]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>0</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>0.017453292519943295</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.DirAmplitudeOfChange</Path>
+      <DefinitionType>MultiLineExpression</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines>
+          <ExpressionLineDefinition>
+            <Indent>0</Indent>
+            <Expression>
+              <Items>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text>720/</Text>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+                  <SelectedItem>
+                    <NodePath>MultipleSetup.SetupItems[5]</NodePath>
+                  </SelectedItem>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+              </Items>
+            </Expression>
+          </ExpressionLineDefinition>
+        </ExpressionLines>
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>0.017453292519943295</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[7]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>0.017453292519943295</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.DirTimePeriod</Path>
+      <DefinitionType>MultiLineExpression</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines>
+          <ExpressionLineDefinition>
+            <Indent>0</Indent>
+            <Expression>
+              <Items>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+                  <SelectedItem>
+                    <NodePath>MultipleSetup.SetupItems[3]</NodePath>
+                  </SelectedItem>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+              </Items>
+            </Expression>
+          </ExpressionLineDefinition>
+        </ExpressionLines>
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[3]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[8]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="EnumMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.DirTypeOfCycle</Path>
+      <DefinitionType>MultiLineExpression</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines>
+          <ExpressionLineDefinition>
+            <Indent>0</Indent>
+            <Expression>
+              <Items>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+                  <SelectedItem>
+                    <NodePath>MultipleSetup.SetupItems[4]</NodePath>
+                  </SelectedItem>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+              </Items>
+            </Expression>
+          </ExpressionLineDefinition>
+        </ExpressionLines>
+      </MultiLineExpression>
+      <Mapping xsi:type="EnumMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[9]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <SpecificValues />
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.SpeedTimeToStart</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[10]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>40</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TransientWind.DirTimeToStart</Path>
+      <DefinitionType>MultiLineExpression</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines>
+          <ExpressionLineDefinition>
+            <Indent>0</Indent>
+            <Expression>
+              <Items>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+                  <SelectedItem>
+                    <NodePath>MultipleSetup.SetupItems[10]</NodePath>
+                  </SelectedItem>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+              </Items>
+            </Expression>
+          </ExpressionLineDefinition>
+        </ExpressionLines>
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[10]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[11]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>0</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Simulation.SimulationSetup.SimulationEndTime</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[12]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>100</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Simulation.SimulationSetup.OutputStartTime</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[13]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>30</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+  </SetupItems>
+  <PathExpression>
+    <Items>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>U</Text>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+        <SelectedItem>
+          <NodePath>MultipleSetup.SetupItems[5]</NodePath>
+        </SelectedItem>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>\powprod</Text>
+      </ExpressionItemBase>
+    </Items>
+  </PathExpression>
+  <UserVariables>
+    <UserVariable xsi:type="UserVariableDouble">
+      <Name>Dir change amp absolute</Name>
+    </UserVariable>
+    <UserVariable xsi:type="UserVariableString">
+      <Name>Amplitude of direction change tag</Name>
+    </UserVariable>
+  </UserVariables>
+</MultipleSetup>
