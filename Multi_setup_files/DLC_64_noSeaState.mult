@@ -1,0 +1,4116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultipleSetup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Application>Bladed</Application>
+  <AppVersion>4.8.0.41</AppVersion>
+  <AppDataModelVersion>0.8</AppDataModelVersion>
+  <SetupItems>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.WindShear.ExponentialVerticalShear.WindShearExponent</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[0]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>0.14</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TowerShadow.DiameterCorrectionFactor</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[1]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>1</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="BooleanMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.AllowWrap</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="BooleanMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[2]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <SpecificValues>
+        <BooleanSpecificValue>
+          <Value>true</Value>
+        </BooleanSpecificValue>
+      </SpecificValues>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.Inclination</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>0.017453292519943295</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[3]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>0</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>0.017453292519943295</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Simulation.SimulationSetup.SimulationEndTime</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[4]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>630</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Simulation.SimulationSetup.OutputStartTime</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[5]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>30</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="FileMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.WindFile</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression xsi:type="StringExpressionDefinition">
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="StringMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[6]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <SpecificValues>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_398\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_430\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_55\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_565\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_811\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_920\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_174\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_332\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_432\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_498\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_591\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_913\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_150\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_396\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_855\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_921\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_963\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_978\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_33\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_48\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_521\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_639\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_775\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_796\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_134\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_315\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_371\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_386\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_475\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_820\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_226\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_251\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_439\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_571\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_678\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_878\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_297\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_587\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_620\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_72\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_827\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_914\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_120\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_130\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_239\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_370\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_577\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_89\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_114\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_257\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_605\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_66\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_667\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_753\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_142\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_162\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_22\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_533\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_634\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_917\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_269\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_333\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_524\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_611\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_661\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_742\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_240\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_299\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_518\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_584\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_665\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_751\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_133\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_27\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_451\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_51\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_669\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_793\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_228\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_347\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_400\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_677\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_835\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_988\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_312\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_354\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_429\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_468\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_621\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_731\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_181\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_393\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_569\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_685\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_716\WindFile.wnd</Value>
+        </StringSpecificValue>
+        <StringSpecificValue>
+          <Value>E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_973\WindFile.wnd</Value>
+        </StringSpecificValue>
+      </SpecificValues>
+      <IsDirectory>false</IsDirectory>
+      <Filter>Wind Files (*.wnd)|*.wnd|All Files (*.*)|*.*</Filter>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.Direction</Path>
+      <DefinitionType>Range</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>0.017453292519943295</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Mapping</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[7]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q1="http://www.w3.org/2001/XMLSchema" xsi:type="q1:double">-0.13962634015954636</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>m8</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q2="http://www.w3.org/2001/XMLSchema" xsi:type="q2:double">0.13962634015954636</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>p8</Value>
+            </To>
+          </Pair>
+        </Pairs>
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>-0.13962634015954636</From>
+        <To>0.13962634015954636</To>
+        <Step>0.27925268031909273</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>0.017453292519943295</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="WindFileDependentMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.MeanSpeed</Path>
+      <DefinitionType>Mapping</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="WindFileDependentMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[6]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q3="http://www.w3.org/2001/XMLSchema" xsi:type="q3:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_398\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q4="http://www.w3.org/2001/XMLSchema" xsi:type="q4:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_430\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q5="http://www.w3.org/2001/XMLSchema" xsi:type="q5:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_55\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q6="http://www.w3.org/2001/XMLSchema" xsi:type="q6:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_565\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q7="http://www.w3.org/2001/XMLSchema" xsi:type="q7:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_811\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q8="http://www.w3.org/2001/XMLSchema" xsi:type="q8:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_920\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q9="http://www.w3.org/2001/XMLSchema" xsi:type="q9:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_174\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q10="http://www.w3.org/2001/XMLSchema" xsi:type="q10:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_332\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q11="http://www.w3.org/2001/XMLSchema" xsi:type="q11:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_432\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q12="http://www.w3.org/2001/XMLSchema" xsi:type="q12:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_498\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q13="http://www.w3.org/2001/XMLSchema" xsi:type="q13:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_591\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q14="http://www.w3.org/2001/XMLSchema" xsi:type="q14:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_913\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q15="http://www.w3.org/2001/XMLSchema" xsi:type="q15:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_150\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q16="http://www.w3.org/2001/XMLSchema" xsi:type="q16:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_396\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q17="http://www.w3.org/2001/XMLSchema" xsi:type="q17:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_855\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q18="http://www.w3.org/2001/XMLSchema" xsi:type="q18:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_921\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q19="http://www.w3.org/2001/XMLSchema" xsi:type="q19:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_963\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q20="http://www.w3.org/2001/XMLSchema" xsi:type="q20:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_978\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q21="http://www.w3.org/2001/XMLSchema" xsi:type="q21:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_33\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q22="http://www.w3.org/2001/XMLSchema" xsi:type="q22:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_48\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q23="http://www.w3.org/2001/XMLSchema" xsi:type="q23:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_521\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q24="http://www.w3.org/2001/XMLSchema" xsi:type="q24:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_639\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q25="http://www.w3.org/2001/XMLSchema" xsi:type="q25:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_775\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q26="http://www.w3.org/2001/XMLSchema" xsi:type="q26:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_796\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q27="http://www.w3.org/2001/XMLSchema" xsi:type="q27:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_134\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q28="http://www.w3.org/2001/XMLSchema" xsi:type="q28:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_315\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q29="http://www.w3.org/2001/XMLSchema" xsi:type="q29:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_371\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q30="http://www.w3.org/2001/XMLSchema" xsi:type="q30:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_386\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q31="http://www.w3.org/2001/XMLSchema" xsi:type="q31:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_475\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q32="http://www.w3.org/2001/XMLSchema" xsi:type="q32:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_820\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q33="http://www.w3.org/2001/XMLSchema" xsi:type="q33:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_226\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q34="http://www.w3.org/2001/XMLSchema" xsi:type="q34:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_251\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q35="http://www.w3.org/2001/XMLSchema" xsi:type="q35:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_439\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q36="http://www.w3.org/2001/XMLSchema" xsi:type="q36:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_571\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q37="http://www.w3.org/2001/XMLSchema" xsi:type="q37:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_678\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q38="http://www.w3.org/2001/XMLSchema" xsi:type="q38:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_878\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q39="http://www.w3.org/2001/XMLSchema" xsi:type="q39:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_297\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q40="http://www.w3.org/2001/XMLSchema" xsi:type="q40:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_587\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q41="http://www.w3.org/2001/XMLSchema" xsi:type="q41:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_620\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q42="http://www.w3.org/2001/XMLSchema" xsi:type="q42:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_72\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q43="http://www.w3.org/2001/XMLSchema" xsi:type="q43:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_827\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q44="http://www.w3.org/2001/XMLSchema" xsi:type="q44:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_914\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q45="http://www.w3.org/2001/XMLSchema" xsi:type="q45:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_120\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q46="http://www.w3.org/2001/XMLSchema" xsi:type="q46:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_130\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q47="http://www.w3.org/2001/XMLSchema" xsi:type="q47:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_239\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q48="http://www.w3.org/2001/XMLSchema" xsi:type="q48:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_370\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q49="http://www.w3.org/2001/XMLSchema" xsi:type="q49:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_577\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q50="http://www.w3.org/2001/XMLSchema" xsi:type="q50:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_89\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q51="http://www.w3.org/2001/XMLSchema" xsi:type="q51:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_114\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>26</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q52="http://www.w3.org/2001/XMLSchema" xsi:type="q52:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_257\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>26</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q53="http://www.w3.org/2001/XMLSchema" xsi:type="q53:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_605\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>26</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q54="http://www.w3.org/2001/XMLSchema" xsi:type="q54:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_66\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>26</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q55="http://www.w3.org/2001/XMLSchema" xsi:type="q55:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_667\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>26</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q56="http://www.w3.org/2001/XMLSchema" xsi:type="q56:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_753\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>26</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q57="http://www.w3.org/2001/XMLSchema" xsi:type="q57:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_142\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>28</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q58="http://www.w3.org/2001/XMLSchema" xsi:type="q58:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_162\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>28</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q59="http://www.w3.org/2001/XMLSchema" xsi:type="q59:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_22\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>28</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q60="http://www.w3.org/2001/XMLSchema" xsi:type="q60:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_533\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>28</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q61="http://www.w3.org/2001/XMLSchema" xsi:type="q61:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_634\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>28</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q62="http://www.w3.org/2001/XMLSchema" xsi:type="q62:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_917\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>28</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q63="http://www.w3.org/2001/XMLSchema" xsi:type="q63:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_269\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q64="http://www.w3.org/2001/XMLSchema" xsi:type="q64:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_333\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q65="http://www.w3.org/2001/XMLSchema" xsi:type="q65:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_524\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q66="http://www.w3.org/2001/XMLSchema" xsi:type="q66:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_611\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q67="http://www.w3.org/2001/XMLSchema" xsi:type="q67:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_661\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q68="http://www.w3.org/2001/XMLSchema" xsi:type="q68:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_742\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q69="http://www.w3.org/2001/XMLSchema" xsi:type="q69:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_240\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>32</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q70="http://www.w3.org/2001/XMLSchema" xsi:type="q70:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_299\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>32</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q71="http://www.w3.org/2001/XMLSchema" xsi:type="q71:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_518\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>32</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q72="http://www.w3.org/2001/XMLSchema" xsi:type="q72:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_584\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>32</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q73="http://www.w3.org/2001/XMLSchema" xsi:type="q73:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_665\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>32</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q74="http://www.w3.org/2001/XMLSchema" xsi:type="q74:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_751\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>32</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q75="http://www.w3.org/2001/XMLSchema" xsi:type="q75:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_133\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q76="http://www.w3.org/2001/XMLSchema" xsi:type="q76:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_27\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q77="http://www.w3.org/2001/XMLSchema" xsi:type="q77:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_451\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q78="http://www.w3.org/2001/XMLSchema" xsi:type="q78:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_51\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q79="http://www.w3.org/2001/XMLSchema" xsi:type="q79:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_669\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q80="http://www.w3.org/2001/XMLSchema" xsi:type="q80:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_793\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q81="http://www.w3.org/2001/XMLSchema" xsi:type="q81:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_228\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q82="http://www.w3.org/2001/XMLSchema" xsi:type="q82:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_347\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q83="http://www.w3.org/2001/XMLSchema" xsi:type="q83:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_400\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q84="http://www.w3.org/2001/XMLSchema" xsi:type="q84:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_677\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q85="http://www.w3.org/2001/XMLSchema" xsi:type="q85:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_835\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q86="http://www.w3.org/2001/XMLSchema" xsi:type="q86:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_988\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q87="http://www.w3.org/2001/XMLSchema" xsi:type="q87:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_312\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q88="http://www.w3.org/2001/XMLSchema" xsi:type="q88:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_354\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q89="http://www.w3.org/2001/XMLSchema" xsi:type="q89:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_429\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q90="http://www.w3.org/2001/XMLSchema" xsi:type="q90:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_468\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q91="http://www.w3.org/2001/XMLSchema" xsi:type="q91:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_621\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q92="http://www.w3.org/2001/XMLSchema" xsi:type="q92:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_731\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q93="http://www.w3.org/2001/XMLSchema" xsi:type="q93:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_181\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q94="http://www.w3.org/2001/XMLSchema" xsi:type="q94:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_393\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q95="http://www.w3.org/2001/XMLSchema" xsi:type="q95:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_569\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q96="http://www.w3.org/2001/XMLSchema" xsi:type="q96:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_685\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q97="http://www.w3.org/2001/XMLSchema" xsi:type="q97:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_716\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q98="http://www.w3.org/2001/XMLSchema" xsi:type="q98:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_973\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8</Value>
+            </To>
+          </Pair>
+        </Pairs>
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+        <IsFromWindFile>true</IsFromWindFile>
+        <WindFileValueCanBeOverridden>true</WindFileValueCanBeOverridden>
+        <IsTurbulenceIntensity>false</IsTurbulenceIntensity>
+        <IsPopulatedFromStandards>false</IsPopulatedFromStandards>
+        <SelectedStandardToPopulateFrom>IECEdition3ClassA</SelectedStandardToPopulateFrom>
+        <TurbulenceParams xsi:type="IECEd3NormTurbulenceParameters">
+          <Iref>0.16</Iref>
+          <b>5.6</b>
+        </TurbulenceParams>
+      </Mapping>
+      <TagScheme>Mapping</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[8]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q99="http://www.w3.org/2001/XMLSchema" xsi:type="q99:double">10</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>10</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q100="http://www.w3.org/2001/XMLSchema" xsi:type="q100:double">12</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>12</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q101="http://www.w3.org/2001/XMLSchema" xsi:type="q101:double">14</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>14</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q102="http://www.w3.org/2001/XMLSchema" xsi:type="q102:double">16</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>16</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q103="http://www.w3.org/2001/XMLSchema" xsi:type="q103:double">18</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>18</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q104="http://www.w3.org/2001/XMLSchema" xsi:type="q104:double">20</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q105="http://www.w3.org/2001/XMLSchema" xsi:type="q105:double">22</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q106="http://www.w3.org/2001/XMLSchema" xsi:type="q106:double">24</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>24</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q107="http://www.w3.org/2001/XMLSchema" xsi:type="q107:double">26</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>26</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q108="http://www.w3.org/2001/XMLSchema" xsi:type="q108:double">28</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>28</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q109="http://www.w3.org/2001/XMLSchema" xsi:type="q109:double">30</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>30</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q110="http://www.w3.org/2001/XMLSchema" xsi:type="q110:double">32</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>32</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q111="http://www.w3.org/2001/XMLSchema" xsi:type="q111:double">34</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q112="http://www.w3.org/2001/XMLSchema" xsi:type="q112:double">4</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>04</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q113="http://www.w3.org/2001/XMLSchema" xsi:type="q113:double">6</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>06</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q114="http://www.w3.org/2001/XMLSchema" xsi:type="q114:double">8</From>
+            <To xsi:type="StringSpecificValue">
+              <Value>08</Value>
+            </To>
+          </Pair>
+        </Pairs>
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+      <WindFileHeaderComponent>MeanWindSpeed</WindFileHeaderComponent>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="WindFileDependentMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.TI_U</Path>
+      <DefinitionType>Mapping</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines>
+          <ExpressionLineDefinition>
+            <Indent>0</Indent>
+            <Expression>
+              <Items>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text>11</Text>
+                </ExpressionItemBase>
+              </Items>
+            </Expression>
+          </ExpressionLineDefinition>
+        </ExpressionLines>
+      </MultiLineExpression>
+      <Mapping xsi:type="WindFileDependentMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[6]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q115="http://www.w3.org/2001/XMLSchema" xsi:type="q115:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_398\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q116="http://www.w3.org/2001/XMLSchema" xsi:type="q116:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_430\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q117="http://www.w3.org/2001/XMLSchema" xsi:type="q117:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_55\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q118="http://www.w3.org/2001/XMLSchema" xsi:type="q118:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_565\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q119="http://www.w3.org/2001/XMLSchema" xsi:type="q119:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_811\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q120="http://www.w3.org/2001/XMLSchema" xsi:type="q120:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_920\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.34</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q121="http://www.w3.org/2001/XMLSchema" xsi:type="q121:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_174\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>17.033333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q122="http://www.w3.org/2001/XMLSchema" xsi:type="q122:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_332\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>17.033333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q123="http://www.w3.org/2001/XMLSchema" xsi:type="q123:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_432\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>17.033333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q124="http://www.w3.org/2001/XMLSchema" xsi:type="q124:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_498\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>17.033333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q125="http://www.w3.org/2001/XMLSchema" xsi:type="q125:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_591\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>17.033333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q126="http://www.w3.org/2001/XMLSchema" xsi:type="q126:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_913\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>17.033333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q127="http://www.w3.org/2001/XMLSchema" xsi:type="q127:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_150\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q128="http://www.w3.org/2001/XMLSchema" xsi:type="q128:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_396\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q129="http://www.w3.org/2001/XMLSchema" xsi:type="q129:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_855\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q130="http://www.w3.org/2001/XMLSchema" xsi:type="q130:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_921\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q131="http://www.w3.org/2001/XMLSchema" xsi:type="q131:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_963\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q132="http://www.w3.org/2001/XMLSchema" xsi:type="q132:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_978\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q133="http://www.w3.org/2001/XMLSchema" xsi:type="q133:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_33\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q134="http://www.w3.org/2001/XMLSchema" xsi:type="q134:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_48\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q135="http://www.w3.org/2001/XMLSchema" xsi:type="q135:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_521\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q136="http://www.w3.org/2001/XMLSchema" xsi:type="q136:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_639\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q137="http://www.w3.org/2001/XMLSchema" xsi:type="q137:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_775\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q138="http://www.w3.org/2001/XMLSchema" xsi:type="q138:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_796\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.4</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q139="http://www.w3.org/2001/XMLSchema" xsi:type="q139:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_134\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.855555555555556</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q140="http://www.w3.org/2001/XMLSchema" xsi:type="q140:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_315\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.855555555555556</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q141="http://www.w3.org/2001/XMLSchema" xsi:type="q141:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_371\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.855555555555556</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q142="http://www.w3.org/2001/XMLSchema" xsi:type="q142:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_386\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.855555555555556</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q143="http://www.w3.org/2001/XMLSchema" xsi:type="q143:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_475\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.855555555555556</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q144="http://www.w3.org/2001/XMLSchema" xsi:type="q144:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_820\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.855555555555556</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q145="http://www.w3.org/2001/XMLSchema" xsi:type="q145:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_226\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.420000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q146="http://www.w3.org/2001/XMLSchema" xsi:type="q146:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_251\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.420000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q147="http://www.w3.org/2001/XMLSchema" xsi:type="q147:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_439\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.420000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q148="http://www.w3.org/2001/XMLSchema" xsi:type="q148:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_571\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.420000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q149="http://www.w3.org/2001/XMLSchema" xsi:type="q149:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_678\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.420000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q150="http://www.w3.org/2001/XMLSchema" xsi:type="q150:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_878\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.420000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q151="http://www.w3.org/2001/XMLSchema" xsi:type="q151:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_297\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.063636363636364</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q152="http://www.w3.org/2001/XMLSchema" xsi:type="q152:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_587\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.063636363636364</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q153="http://www.w3.org/2001/XMLSchema" xsi:type="q153:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_620\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.063636363636364</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q154="http://www.w3.org/2001/XMLSchema" xsi:type="q154:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_72\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.063636363636364</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q155="http://www.w3.org/2001/XMLSchema" xsi:type="q155:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_827\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.063636363636364</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q156="http://www.w3.org/2001/XMLSchema" xsi:type="q156:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_914\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.063636363636364</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q157="http://www.w3.org/2001/XMLSchema" xsi:type="q157:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_120\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.766666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q158="http://www.w3.org/2001/XMLSchema" xsi:type="q158:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_130\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.766666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q159="http://www.w3.org/2001/XMLSchema" xsi:type="q159:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_239\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.766666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q160="http://www.w3.org/2001/XMLSchema" xsi:type="q160:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_370\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.766666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q161="http://www.w3.org/2001/XMLSchema" xsi:type="q161:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_577\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.766666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q162="http://www.w3.org/2001/XMLSchema" xsi:type="q162:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_89\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.766666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q163="http://www.w3.org/2001/XMLSchema" xsi:type="q163:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_114\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.515384615384617</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q164="http://www.w3.org/2001/XMLSchema" xsi:type="q164:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_257\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.515384615384617</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q165="http://www.w3.org/2001/XMLSchema" xsi:type="q165:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_605\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.515384615384617</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q166="http://www.w3.org/2001/XMLSchema" xsi:type="q166:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_66\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.515384615384617</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q167="http://www.w3.org/2001/XMLSchema" xsi:type="q167:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_667\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.515384615384617</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q168="http://www.w3.org/2001/XMLSchema" xsi:type="q168:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_753\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.515384615384617</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q169="http://www.w3.org/2001/XMLSchema" xsi:type="q169:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_142\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q170="http://www.w3.org/2001/XMLSchema" xsi:type="q170:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_162\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q171="http://www.w3.org/2001/XMLSchema" xsi:type="q171:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_22\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q172="http://www.w3.org/2001/XMLSchema" xsi:type="q172:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_533\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q173="http://www.w3.org/2001/XMLSchema" xsi:type="q173:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_634\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q174="http://www.w3.org/2001/XMLSchema" xsi:type="q174:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_917\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q175="http://www.w3.org/2001/XMLSchema" xsi:type="q175:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_269\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.113333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q176="http://www.w3.org/2001/XMLSchema" xsi:type="q176:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_333\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.113333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q177="http://www.w3.org/2001/XMLSchema" xsi:type="q177:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_524\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.113333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q178="http://www.w3.org/2001/XMLSchema" xsi:type="q178:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_611\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.113333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q179="http://www.w3.org/2001/XMLSchema" xsi:type="q179:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_661\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.113333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q180="http://www.w3.org/2001/XMLSchema" xsi:type="q180:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_742\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.113333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q181="http://www.w3.org/2001/XMLSchema" xsi:type="q181:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_240\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.950000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q182="http://www.w3.org/2001/XMLSchema" xsi:type="q182:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_299\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.950000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q183="http://www.w3.org/2001/XMLSchema" xsi:type="q183:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_518\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.950000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q184="http://www.w3.org/2001/XMLSchema" xsi:type="q184:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_584\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.950000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q185="http://www.w3.org/2001/XMLSchema" xsi:type="q185:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_665\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.950000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q186="http://www.w3.org/2001/XMLSchema" xsi:type="q186:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_751\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.950000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q187="http://www.w3.org/2001/XMLSchema" xsi:type="q187:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_133\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.805882352941177</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q188="http://www.w3.org/2001/XMLSchema" xsi:type="q188:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_27\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.805882352941177</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q189="http://www.w3.org/2001/XMLSchema" xsi:type="q189:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_451\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.805882352941177</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q190="http://www.w3.org/2001/XMLSchema" xsi:type="q190:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_51\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.805882352941177</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q191="http://www.w3.org/2001/XMLSchema" xsi:type="q191:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_669\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.805882352941177</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q192="http://www.w3.org/2001/XMLSchema" xsi:type="q192:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_793\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.805882352941177</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q193="http://www.w3.org/2001/XMLSchema" xsi:type="q193:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_228\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q194="http://www.w3.org/2001/XMLSchema" xsi:type="q194:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_347\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q195="http://www.w3.org/2001/XMLSchema" xsi:type="q195:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_400\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q196="http://www.w3.org/2001/XMLSchema" xsi:type="q196:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_677\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q197="http://www.w3.org/2001/XMLSchema" xsi:type="q197:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_835\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q198="http://www.w3.org/2001/XMLSchema" xsi:type="q198:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_988\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>30.1</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q199="http://www.w3.org/2001/XMLSchema" xsi:type="q199:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_312\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>23.566666666666666</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q200="http://www.w3.org/2001/XMLSchema" xsi:type="q200:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_354\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>23.566666666666666</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q201="http://www.w3.org/2001/XMLSchema" xsi:type="q201:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_429\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>23.566666666666666</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q202="http://www.w3.org/2001/XMLSchema" xsi:type="q202:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_468\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>23.566666666666666</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q203="http://www.w3.org/2001/XMLSchema" xsi:type="q203:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_621\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>23.566666666666666</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q204="http://www.w3.org/2001/XMLSchema" xsi:type="q204:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_731\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>23.566666666666666</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q205="http://www.w3.org/2001/XMLSchema" xsi:type="q205:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_181\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q206="http://www.w3.org/2001/XMLSchema" xsi:type="q206:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_393\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q207="http://www.w3.org/2001/XMLSchema" xsi:type="q207:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_569\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q208="http://www.w3.org/2001/XMLSchema" xsi:type="q208:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_685\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q209="http://www.w3.org/2001/XMLSchema" xsi:type="q209:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_716\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20.3</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q210="http://www.w3.org/2001/XMLSchema" xsi:type="q210:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_973\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>20.3</Value>
+            </To>
+          </Pair>
+        </Pairs>
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+        <IsFromWindFile>false</IsFromWindFile>
+        <WindFileValueCanBeOverridden>true</WindFileValueCanBeOverridden>
+        <IsTurbulenceIntensity>true</IsTurbulenceIntensity>
+        <IsPopulatedFromStandards>true</IsPopulatedFromStandards>
+        <SelectedStandardToPopulateFrom>IECEdition3ClassB</SelectedStandardToPopulateFrom>
+        <TurbulenceParams xsi:type="IECEd3NormTurbulenceParameters">
+          <Iref>0.14</Iref>
+          <b>5.6</b>
+        </TurbulenceParams>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[9]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+      <WindFileHeaderComponent>LongitudinalTurbulenceIntensity</WindFileHeaderComponent>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="WindFileDependentMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.TI_V</Path>
+      <DefinitionType>Mapping</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines>
+          <ExpressionLineDefinition>
+            <Indent>0</Indent>
+            <Expression>
+              <Items>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text>0.7*</Text>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+                  <SelectedItem>
+                    <NodePath>MultipleSetup.SetupItems[9]</NodePath>
+                  </SelectedItem>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+              </Items>
+            </Expression>
+          </ExpressionLineDefinition>
+        </ExpressionLines>
+      </MultiLineExpression>
+      <Mapping xsi:type="WindFileDependentMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[6]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q211="http://www.w3.org/2001/XMLSchema" xsi:type="q211:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_398\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.672000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q212="http://www.w3.org/2001/XMLSchema" xsi:type="q212:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_430\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.672000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q213="http://www.w3.org/2001/XMLSchema" xsi:type="q213:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_55\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.672000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q214="http://www.w3.org/2001/XMLSchema" xsi:type="q214:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_565\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.672000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q215="http://www.w3.org/2001/XMLSchema" xsi:type="q215:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_811\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.672000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q216="http://www.w3.org/2001/XMLSchema" xsi:type="q216:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_920\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>14.672000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q217="http://www.w3.org/2001/XMLSchema" xsi:type="q217:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_174\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.626666666666669</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q218="http://www.w3.org/2001/XMLSchema" xsi:type="q218:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_332\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.626666666666669</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q219="http://www.w3.org/2001/XMLSchema" xsi:type="q219:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_432\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.626666666666669</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q220="http://www.w3.org/2001/XMLSchema" xsi:type="q220:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_498\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.626666666666669</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q221="http://www.w3.org/2001/XMLSchema" xsi:type="q221:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_591\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.626666666666669</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q222="http://www.w3.org/2001/XMLSchema" xsi:type="q222:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_913\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>13.626666666666669</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q223="http://www.w3.org/2001/XMLSchema" xsi:type="q223:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_150\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.88</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q224="http://www.w3.org/2001/XMLSchema" xsi:type="q224:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_396\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.88</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q225="http://www.w3.org/2001/XMLSchema" xsi:type="q225:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_855\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.88</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q226="http://www.w3.org/2001/XMLSchema" xsi:type="q226:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_921\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.88</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q227="http://www.w3.org/2001/XMLSchema" xsi:type="q227:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_963\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.88</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q228="http://www.w3.org/2001/XMLSchema" xsi:type="q228:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_978\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.88</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q229="http://www.w3.org/2001/XMLSchema" xsi:type="q229:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_33\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.320000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q230="http://www.w3.org/2001/XMLSchema" xsi:type="q230:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_48\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.320000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q231="http://www.w3.org/2001/XMLSchema" xsi:type="q231:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_521\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.320000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q232="http://www.w3.org/2001/XMLSchema" xsi:type="q232:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_639\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.320000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q233="http://www.w3.org/2001/XMLSchema" xsi:type="q233:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_775\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.320000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q234="http://www.w3.org/2001/XMLSchema" xsi:type="q234:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_796\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>12.320000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q235="http://www.w3.org/2001/XMLSchema" xsi:type="q235:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_134\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.884444444444446</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q236="http://www.w3.org/2001/XMLSchema" xsi:type="q236:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_315\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.884444444444446</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q237="http://www.w3.org/2001/XMLSchema" xsi:type="q237:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_371\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.884444444444446</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q238="http://www.w3.org/2001/XMLSchema" xsi:type="q238:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_386\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.884444444444446</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q239="http://www.w3.org/2001/XMLSchema" xsi:type="q239:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_475\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.884444444444446</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q240="http://www.w3.org/2001/XMLSchema" xsi:type="q240:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_820\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.884444444444446</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q241="http://www.w3.org/2001/XMLSchema" xsi:type="q241:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_226\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.536000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q242="http://www.w3.org/2001/XMLSchema" xsi:type="q242:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_251\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.536000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q243="http://www.w3.org/2001/XMLSchema" xsi:type="q243:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_439\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.536000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q244="http://www.w3.org/2001/XMLSchema" xsi:type="q244:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_571\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.536000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q245="http://www.w3.org/2001/XMLSchema" xsi:type="q245:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_678\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.536000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q246="http://www.w3.org/2001/XMLSchema" xsi:type="q246:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_878\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.536000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q247="http://www.w3.org/2001/XMLSchema" xsi:type="q247:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_297\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.250909090909092</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q248="http://www.w3.org/2001/XMLSchema" xsi:type="q248:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_587\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.250909090909092</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q249="http://www.w3.org/2001/XMLSchema" xsi:type="q249:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_620\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.250909090909092</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q250="http://www.w3.org/2001/XMLSchema" xsi:type="q250:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_72\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.250909090909092</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q251="http://www.w3.org/2001/XMLSchema" xsi:type="q251:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_827\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.250909090909092</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q252="http://www.w3.org/2001/XMLSchema" xsi:type="q252:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_914\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.250909090909092</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q253="http://www.w3.org/2001/XMLSchema" xsi:type="q253:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_120\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.013333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q254="http://www.w3.org/2001/XMLSchema" xsi:type="q254:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_130\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.013333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q255="http://www.w3.org/2001/XMLSchema" xsi:type="q255:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_239\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.013333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q256="http://www.w3.org/2001/XMLSchema" xsi:type="q256:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_370\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.013333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q257="http://www.w3.org/2001/XMLSchema" xsi:type="q257:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_577\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.013333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q258="http://www.w3.org/2001/XMLSchema" xsi:type="q258:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_89\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.013333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q259="http://www.w3.org/2001/XMLSchema" xsi:type="q259:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_114\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.812307692307694</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q260="http://www.w3.org/2001/XMLSchema" xsi:type="q260:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_257\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.812307692307694</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q261="http://www.w3.org/2001/XMLSchema" xsi:type="q261:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_605\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.812307692307694</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q262="http://www.w3.org/2001/XMLSchema" xsi:type="q262:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_66\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.812307692307694</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q263="http://www.w3.org/2001/XMLSchema" xsi:type="q263:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_667\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.812307692307694</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q264="http://www.w3.org/2001/XMLSchema" xsi:type="q264:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_753\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.812307692307694</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q265="http://www.w3.org/2001/XMLSchema" xsi:type="q265:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_142\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.640000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q266="http://www.w3.org/2001/XMLSchema" xsi:type="q266:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_162\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.640000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q267="http://www.w3.org/2001/XMLSchema" xsi:type="q267:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_22\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.640000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q268="http://www.w3.org/2001/XMLSchema" xsi:type="q268:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_533\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.640000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q269="http://www.w3.org/2001/XMLSchema" xsi:type="q269:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_634\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.640000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q270="http://www.w3.org/2001/XMLSchema" xsi:type="q270:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_917\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.640000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q271="http://www.w3.org/2001/XMLSchema" xsi:type="q271:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_269\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.490666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q272="http://www.w3.org/2001/XMLSchema" xsi:type="q272:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_333\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.490666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q273="http://www.w3.org/2001/XMLSchema" xsi:type="q273:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_524\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.490666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q274="http://www.w3.org/2001/XMLSchema" xsi:type="q274:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_611\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.490666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q275="http://www.w3.org/2001/XMLSchema" xsi:type="q275:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_661\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.490666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q276="http://www.w3.org/2001/XMLSchema" xsi:type="q276:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_742\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.490666666666668</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q277="http://www.w3.org/2001/XMLSchema" xsi:type="q277:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_240\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.360000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q278="http://www.w3.org/2001/XMLSchema" xsi:type="q278:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_299\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.360000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q279="http://www.w3.org/2001/XMLSchema" xsi:type="q279:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_518\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.360000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q280="http://www.w3.org/2001/XMLSchema" xsi:type="q280:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_584\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.360000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q281="http://www.w3.org/2001/XMLSchema" xsi:type="q281:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_665\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.360000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q282="http://www.w3.org/2001/XMLSchema" xsi:type="q282:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_751\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.360000000000001</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q283="http://www.w3.org/2001/XMLSchema" xsi:type="q283:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_133\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.244705882352942</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q284="http://www.w3.org/2001/XMLSchema" xsi:type="q284:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_27\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.244705882352942</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q285="http://www.w3.org/2001/XMLSchema" xsi:type="q285:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_451\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.244705882352942</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q286="http://www.w3.org/2001/XMLSchema" xsi:type="q286:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_51\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.244705882352942</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q287="http://www.w3.org/2001/XMLSchema" xsi:type="q287:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_669\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.244705882352942</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q288="http://www.w3.org/2001/XMLSchema" xsi:type="q288:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_793\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.244705882352942</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q289="http://www.w3.org/2001/XMLSchema" xsi:type="q289:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_228\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24.080000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q290="http://www.w3.org/2001/XMLSchema" xsi:type="q290:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_347\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24.080000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q291="http://www.w3.org/2001/XMLSchema" xsi:type="q291:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_400\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24.080000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q292="http://www.w3.org/2001/XMLSchema" xsi:type="q292:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_677\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24.080000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q293="http://www.w3.org/2001/XMLSchema" xsi:type="q293:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_835\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24.080000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q294="http://www.w3.org/2001/XMLSchema" xsi:type="q294:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_988\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>24.080000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q295="http://www.w3.org/2001/XMLSchema" xsi:type="q295:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_312\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.853333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q296="http://www.w3.org/2001/XMLSchema" xsi:type="q296:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_354\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.853333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q297="http://www.w3.org/2001/XMLSchema" xsi:type="q297:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_429\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.853333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q298="http://www.w3.org/2001/XMLSchema" xsi:type="q298:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_468\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.853333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q299="http://www.w3.org/2001/XMLSchema" xsi:type="q299:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_621\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.853333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q300="http://www.w3.org/2001/XMLSchema" xsi:type="q300:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_731\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>18.853333333333335</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q301="http://www.w3.org/2001/XMLSchema" xsi:type="q301:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_181\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.240000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q302="http://www.w3.org/2001/XMLSchema" xsi:type="q302:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_393\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.240000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q303="http://www.w3.org/2001/XMLSchema" xsi:type="q303:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_569\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.240000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q304="http://www.w3.org/2001/XMLSchema" xsi:type="q304:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_685\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.240000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q305="http://www.w3.org/2001/XMLSchema" xsi:type="q305:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_716\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.240000000000002</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q306="http://www.w3.org/2001/XMLSchema" xsi:type="q306:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_973\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>16.240000000000002</Value>
+            </To>
+          </Pair>
+        </Pairs>
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+        <IsFromWindFile>false</IsFromWindFile>
+        <WindFileValueCanBeOverridden>true</WindFileValueCanBeOverridden>
+        <IsTurbulenceIntensity>true</IsTurbulenceIntensity>
+        <IsPopulatedFromStandards>true</IsPopulatedFromStandards>
+        <SelectedStandardToPopulateFrom>IECEdition3ClassB</SelectedStandardToPopulateFrom>
+        <TurbulenceParams xsi:type="IECEd3NormTurbulenceParameters">
+          <Iref>0.14</Iref>
+          <b>5.6</b>
+        </TurbulenceParams>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[10]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+      <WindFileHeaderComponent>LateralTurbulenceIntensity</WindFileHeaderComponent>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="WindFileDependentMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.TI_W</Path>
+      <DefinitionType>Mapping</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines>
+          <ExpressionLineDefinition>
+            <Indent>0</Indent>
+            <Expression>
+              <Items>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text>0.5*</Text>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+                  <SelectedItem>
+                    <NodePath>MultipleSetup.SetupItems[9]</NodePath>
+                  </SelectedItem>
+                </ExpressionItemBase>
+                <ExpressionItemBase xsi:type="ExpressionTextItem">
+                  <Text />
+                </ExpressionItemBase>
+              </Items>
+            </Expression>
+          </ExpressionLineDefinition>
+        </ExpressionLines>
+      </MultiLineExpression>
+      <Mapping xsi:type="WindFileDependentMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[6]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q307="http://www.w3.org/2001/XMLSchema" xsi:type="q307:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_398\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>9.17</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q308="http://www.w3.org/2001/XMLSchema" xsi:type="q308:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_430\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>9.17</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q309="http://www.w3.org/2001/XMLSchema" xsi:type="q309:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_55\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>9.17</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q310="http://www.w3.org/2001/XMLSchema" xsi:type="q310:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_565\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>9.17</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q311="http://www.w3.org/2001/XMLSchema" xsi:type="q311:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_811\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>9.17</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q312="http://www.w3.org/2001/XMLSchema" xsi:type="q312:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_920\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>9.17</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q313="http://www.w3.org/2001/XMLSchema" xsi:type="q313:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_174\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.5166666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q314="http://www.w3.org/2001/XMLSchema" xsi:type="q314:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_332\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.5166666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q315="http://www.w3.org/2001/XMLSchema" xsi:type="q315:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_432\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.5166666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q316="http://www.w3.org/2001/XMLSchema" xsi:type="q316:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_498\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.5166666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q317="http://www.w3.org/2001/XMLSchema" xsi:type="q317:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_591\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.5166666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q318="http://www.w3.org/2001/XMLSchema" xsi:type="q318:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_913\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.5166666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q319="http://www.w3.org/2001/XMLSchema" xsi:type="q319:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_150\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q320="http://www.w3.org/2001/XMLSchema" xsi:type="q320:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_396\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q321="http://www.w3.org/2001/XMLSchema" xsi:type="q321:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_855\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q322="http://www.w3.org/2001/XMLSchema" xsi:type="q322:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_921\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q323="http://www.w3.org/2001/XMLSchema" xsi:type="q323:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_963\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q324="http://www.w3.org/2001/XMLSchema" xsi:type="q324:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_978\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>8.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q325="http://www.w3.org/2001/XMLSchema" xsi:type="q325:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_33\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.7</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q326="http://www.w3.org/2001/XMLSchema" xsi:type="q326:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_48\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.7</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q327="http://www.w3.org/2001/XMLSchema" xsi:type="q327:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_521\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.7</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q328="http://www.w3.org/2001/XMLSchema" xsi:type="q328:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_639\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.7</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q329="http://www.w3.org/2001/XMLSchema" xsi:type="q329:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_775\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.7</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q330="http://www.w3.org/2001/XMLSchema" xsi:type="q330:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_796\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.7</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q331="http://www.w3.org/2001/XMLSchema" xsi:type="q331:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_134\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.427777777777778</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q332="http://www.w3.org/2001/XMLSchema" xsi:type="q332:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_315\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.427777777777778</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q333="http://www.w3.org/2001/XMLSchema" xsi:type="q333:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_371\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.427777777777778</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q334="http://www.w3.org/2001/XMLSchema" xsi:type="q334:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_386\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.427777777777778</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q335="http://www.w3.org/2001/XMLSchema" xsi:type="q335:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_475\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.427777777777778</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q336="http://www.w3.org/2001/XMLSchema" xsi:type="q336:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_820\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.427777777777778</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q337="http://www.w3.org/2001/XMLSchema" xsi:type="q337:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_226\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.2100000000000009</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q338="http://www.w3.org/2001/XMLSchema" xsi:type="q338:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_251\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.2100000000000009</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q339="http://www.w3.org/2001/XMLSchema" xsi:type="q339:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_439\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.2100000000000009</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q340="http://www.w3.org/2001/XMLSchema" xsi:type="q340:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_571\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.2100000000000009</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q341="http://www.w3.org/2001/XMLSchema" xsi:type="q341:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_678\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.2100000000000009</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q342="http://www.w3.org/2001/XMLSchema" xsi:type="q342:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_878\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.2100000000000009</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q343="http://www.w3.org/2001/XMLSchema" xsi:type="q343:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_297\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.0318181818181822</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q344="http://www.w3.org/2001/XMLSchema" xsi:type="q344:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_587\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.0318181818181822</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q345="http://www.w3.org/2001/XMLSchema" xsi:type="q345:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_620\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.0318181818181822</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q346="http://www.w3.org/2001/XMLSchema" xsi:type="q346:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_72\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.0318181818181822</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q347="http://www.w3.org/2001/XMLSchema" xsi:type="q347:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_827\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.0318181818181822</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q348="http://www.w3.org/2001/XMLSchema" xsi:type="q348:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_914\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>7.0318181818181822</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q349="http://www.w3.org/2001/XMLSchema" xsi:type="q349:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_120\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.8833333333333337</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q350="http://www.w3.org/2001/XMLSchema" xsi:type="q350:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_130\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.8833333333333337</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q351="http://www.w3.org/2001/XMLSchema" xsi:type="q351:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_239\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.8833333333333337</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q352="http://www.w3.org/2001/XMLSchema" xsi:type="q352:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_370\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.8833333333333337</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q353="http://www.w3.org/2001/XMLSchema" xsi:type="q353:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_577\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.8833333333333337</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q354="http://www.w3.org/2001/XMLSchema" xsi:type="q354:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_89\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.8833333333333337</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q355="http://www.w3.org/2001/XMLSchema" xsi:type="q355:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_114\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.7576923076923086</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q356="http://www.w3.org/2001/XMLSchema" xsi:type="q356:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_257\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.7576923076923086</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q357="http://www.w3.org/2001/XMLSchema" xsi:type="q357:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_605\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.7576923076923086</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q358="http://www.w3.org/2001/XMLSchema" xsi:type="q358:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_66\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.7576923076923086</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q359="http://www.w3.org/2001/XMLSchema" xsi:type="q359:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_667\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.7576923076923086</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q360="http://www.w3.org/2001/XMLSchema" xsi:type="q360:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_753\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.7576923076923086</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q361="http://www.w3.org/2001/XMLSchema" xsi:type="q361:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_142\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.65</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q362="http://www.w3.org/2001/XMLSchema" xsi:type="q362:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_162\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.65</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q363="http://www.w3.org/2001/XMLSchema" xsi:type="q363:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_22\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.65</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q364="http://www.w3.org/2001/XMLSchema" xsi:type="q364:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_533\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.65</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q365="http://www.w3.org/2001/XMLSchema" xsi:type="q365:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_634\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.65</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q366="http://www.w3.org/2001/XMLSchema" xsi:type="q366:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_917\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.65</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q367="http://www.w3.org/2001/XMLSchema" xsi:type="q367:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_269\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.5566666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q368="http://www.w3.org/2001/XMLSchema" xsi:type="q368:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_333\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.5566666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q369="http://www.w3.org/2001/XMLSchema" xsi:type="q369:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_524\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.5566666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q370="http://www.w3.org/2001/XMLSchema" xsi:type="q370:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_611\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.5566666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q371="http://www.w3.org/2001/XMLSchema" xsi:type="q371:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_661\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.5566666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q372="http://www.w3.org/2001/XMLSchema" xsi:type="q372:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_742\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.5566666666666675</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q373="http://www.w3.org/2001/XMLSchema" xsi:type="q373:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_240\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4750000000000005</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q374="http://www.w3.org/2001/XMLSchema" xsi:type="q374:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_299\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4750000000000005</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q375="http://www.w3.org/2001/XMLSchema" xsi:type="q375:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_518\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4750000000000005</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q376="http://www.w3.org/2001/XMLSchema" xsi:type="q376:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_584\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4750000000000005</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q377="http://www.w3.org/2001/XMLSchema" xsi:type="q377:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_665\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4750000000000005</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q378="http://www.w3.org/2001/XMLSchema" xsi:type="q378:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_751\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4750000000000005</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q379="http://www.w3.org/2001/XMLSchema" xsi:type="q379:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_133\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4029411764705886</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q380="http://www.w3.org/2001/XMLSchema" xsi:type="q380:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_27\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4029411764705886</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q381="http://www.w3.org/2001/XMLSchema" xsi:type="q381:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_451\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4029411764705886</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q382="http://www.w3.org/2001/XMLSchema" xsi:type="q382:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_51\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4029411764705886</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q383="http://www.w3.org/2001/XMLSchema" xsi:type="q383:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_669\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4029411764705886</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q384="http://www.w3.org/2001/XMLSchema" xsi:type="q384:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_793\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>6.4029411764705886</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q385="http://www.w3.org/2001/XMLSchema" xsi:type="q385:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_228\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q386="http://www.w3.org/2001/XMLSchema" xsi:type="q386:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_347\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q387="http://www.w3.org/2001/XMLSchema" xsi:type="q387:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_400\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q388="http://www.w3.org/2001/XMLSchema" xsi:type="q388:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_677\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q389="http://www.w3.org/2001/XMLSchema" xsi:type="q389:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_835\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q390="http://www.w3.org/2001/XMLSchema" xsi:type="q390:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_988\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>15.05</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q391="http://www.w3.org/2001/XMLSchema" xsi:type="q391:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_312\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.783333333333333</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q392="http://www.w3.org/2001/XMLSchema" xsi:type="q392:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_354\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.783333333333333</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q393="http://www.w3.org/2001/XMLSchema" xsi:type="q393:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_429\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.783333333333333</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q394="http://www.w3.org/2001/XMLSchema" xsi:type="q394:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_468\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.783333333333333</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q395="http://www.w3.org/2001/XMLSchema" xsi:type="q395:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_621\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.783333333333333</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q396="http://www.w3.org/2001/XMLSchema" xsi:type="q396:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_731\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>11.783333333333333</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q397="http://www.w3.org/2001/XMLSchema" xsi:type="q397:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_181\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.15</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q398="http://www.w3.org/2001/XMLSchema" xsi:type="q398:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_393\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.15</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q399="http://www.w3.org/2001/XMLSchema" xsi:type="q399:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_569\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.15</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q400="http://www.w3.org/2001/XMLSchema" xsi:type="q400:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_685\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.15</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q401="http://www.w3.org/2001/XMLSchema" xsi:type="q401:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_716\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.15</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q402="http://www.w3.org/2001/XMLSchema" xsi:type="q402:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_973\WindFile.wnd</From>
+            <To xsi:type="DoubleSpecificValue">
+              <Value>10.15</Value>
+            </To>
+          </Pair>
+        </Pairs>
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+        <IsFromWindFile>false</IsFromWindFile>
+        <WindFileValueCanBeOverridden>true</WindFileValueCanBeOverridden>
+        <IsTurbulenceIntensity>true</IsTurbulenceIntensity>
+        <IsPopulatedFromStandards>true</IsPopulatedFromStandards>
+        <SelectedStandardToPopulateFrom>IECEdition3ClassB</SelectedStandardToPopulateFrom>
+        <TurbulenceParams xsi:type="IECEd3NormTurbulenceParameters">
+          <Iref>0.14</Iref>
+          <b>5.6</b>
+        </TurbulenceParams>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[11]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+      <WindFileHeaderComponent>VerticalTurbulenceIntensity</WindFileHeaderComponent>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="IntWindFileDependentMultiSetupItem">
+      <Path>NewGUI.Environment.Wind.TimeVaryingWind.TurbulentWind.TurbulenceSeed</Path>
+      <DefinitionType>Mapping</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="IntWindFileDependentMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[6]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q403="http://www.w3.org/2001/XMLSchema" xsi:type="q403:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_398\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>398</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q404="http://www.w3.org/2001/XMLSchema" xsi:type="q404:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_430\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>430</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q405="http://www.w3.org/2001/XMLSchema" xsi:type="q405:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_55\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>55</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q406="http://www.w3.org/2001/XMLSchema" xsi:type="q406:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_565\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>565</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q407="http://www.w3.org/2001/XMLSchema" xsi:type="q407:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_811\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>811</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q408="http://www.w3.org/2001/XMLSchema" xsi:type="q408:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U10_920\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>920</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q409="http://www.w3.org/2001/XMLSchema" xsi:type="q409:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_174\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>174</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q410="http://www.w3.org/2001/XMLSchema" xsi:type="q410:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_332\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>332</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q411="http://www.w3.org/2001/XMLSchema" xsi:type="q411:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_432\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>432</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q412="http://www.w3.org/2001/XMLSchema" xsi:type="q412:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_498\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>498</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q413="http://www.w3.org/2001/XMLSchema" xsi:type="q413:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_591\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>591</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q414="http://www.w3.org/2001/XMLSchema" xsi:type="q414:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U12_913\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>913</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q415="http://www.w3.org/2001/XMLSchema" xsi:type="q415:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_150\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>150</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q416="http://www.w3.org/2001/XMLSchema" xsi:type="q416:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_396\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>396</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q417="http://www.w3.org/2001/XMLSchema" xsi:type="q417:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_855\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>855</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q418="http://www.w3.org/2001/XMLSchema" xsi:type="q418:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_921\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>921</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q419="http://www.w3.org/2001/XMLSchema" xsi:type="q419:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_963\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>963</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q420="http://www.w3.org/2001/XMLSchema" xsi:type="q420:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U14_978\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>978</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q421="http://www.w3.org/2001/XMLSchema" xsi:type="q421:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_33\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>33</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q422="http://www.w3.org/2001/XMLSchema" xsi:type="q422:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_48\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>48</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q423="http://www.w3.org/2001/XMLSchema" xsi:type="q423:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_521\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>521</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q424="http://www.w3.org/2001/XMLSchema" xsi:type="q424:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_639\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>639</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q425="http://www.w3.org/2001/XMLSchema" xsi:type="q425:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_775\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>775</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q426="http://www.w3.org/2001/XMLSchema" xsi:type="q426:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U16_796\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>796</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q427="http://www.w3.org/2001/XMLSchema" xsi:type="q427:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_134\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>134</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q428="http://www.w3.org/2001/XMLSchema" xsi:type="q428:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_315\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>315</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q429="http://www.w3.org/2001/XMLSchema" xsi:type="q429:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_371\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>371</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q430="http://www.w3.org/2001/XMLSchema" xsi:type="q430:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_386\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>386</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q431="http://www.w3.org/2001/XMLSchema" xsi:type="q431:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_475\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>475</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q432="http://www.w3.org/2001/XMLSchema" xsi:type="q432:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U18_820\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>820</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q433="http://www.w3.org/2001/XMLSchema" xsi:type="q433:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_226\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>226</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q434="http://www.w3.org/2001/XMLSchema" xsi:type="q434:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_251\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>251</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q435="http://www.w3.org/2001/XMLSchema" xsi:type="q435:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_439\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>439</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q436="http://www.w3.org/2001/XMLSchema" xsi:type="q436:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_571\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>571</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q437="http://www.w3.org/2001/XMLSchema" xsi:type="q437:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_678\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>678</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q438="http://www.w3.org/2001/XMLSchema" xsi:type="q438:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U20_878\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>878</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q439="http://www.w3.org/2001/XMLSchema" xsi:type="q439:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_297\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>297</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q440="http://www.w3.org/2001/XMLSchema" xsi:type="q440:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_587\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>587</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q441="http://www.w3.org/2001/XMLSchema" xsi:type="q441:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_620\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>620</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q442="http://www.w3.org/2001/XMLSchema" xsi:type="q442:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_72\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>72</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q443="http://www.w3.org/2001/XMLSchema" xsi:type="q443:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_827\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>827</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q444="http://www.w3.org/2001/XMLSchema" xsi:type="q444:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U22_914\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>914</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q445="http://www.w3.org/2001/XMLSchema" xsi:type="q445:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_120\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>120</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q446="http://www.w3.org/2001/XMLSchema" xsi:type="q446:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_130\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>130</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q447="http://www.w3.org/2001/XMLSchema" xsi:type="q447:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_239\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>239</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q448="http://www.w3.org/2001/XMLSchema" xsi:type="q448:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_370\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>370</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q449="http://www.w3.org/2001/XMLSchema" xsi:type="q449:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_577\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>577</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q450="http://www.w3.org/2001/XMLSchema" xsi:type="q450:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U24_89\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>89</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q451="http://www.w3.org/2001/XMLSchema" xsi:type="q451:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_114\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>114</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q452="http://www.w3.org/2001/XMLSchema" xsi:type="q452:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_257\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>257</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q453="http://www.w3.org/2001/XMLSchema" xsi:type="q453:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_605\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>605</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q454="http://www.w3.org/2001/XMLSchema" xsi:type="q454:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_66\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>66</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q455="http://www.w3.org/2001/XMLSchema" xsi:type="q455:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_667\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>667</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q456="http://www.w3.org/2001/XMLSchema" xsi:type="q456:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U26_753\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>753</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q457="http://www.w3.org/2001/XMLSchema" xsi:type="q457:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_142\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>142</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q458="http://www.w3.org/2001/XMLSchema" xsi:type="q458:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_162\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>162</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q459="http://www.w3.org/2001/XMLSchema" xsi:type="q459:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_22\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>22</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q460="http://www.w3.org/2001/XMLSchema" xsi:type="q460:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_533\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>533</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q461="http://www.w3.org/2001/XMLSchema" xsi:type="q461:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_634\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>634</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q462="http://www.w3.org/2001/XMLSchema" xsi:type="q462:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U28_917\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>917</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q463="http://www.w3.org/2001/XMLSchema" xsi:type="q463:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_269\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>269</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q464="http://www.w3.org/2001/XMLSchema" xsi:type="q464:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_333\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>333</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q465="http://www.w3.org/2001/XMLSchema" xsi:type="q465:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_524\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>524</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q466="http://www.w3.org/2001/XMLSchema" xsi:type="q466:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_611\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>611</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q467="http://www.w3.org/2001/XMLSchema" xsi:type="q467:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_661\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>661</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q468="http://www.w3.org/2001/XMLSchema" xsi:type="q468:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U30_742\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>742</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q469="http://www.w3.org/2001/XMLSchema" xsi:type="q469:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_240\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>240</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q470="http://www.w3.org/2001/XMLSchema" xsi:type="q470:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_299\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>299</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q471="http://www.w3.org/2001/XMLSchema" xsi:type="q471:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_518\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>518</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q472="http://www.w3.org/2001/XMLSchema" xsi:type="q472:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_584\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>584</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q473="http://www.w3.org/2001/XMLSchema" xsi:type="q473:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_665\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>665</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q474="http://www.w3.org/2001/XMLSchema" xsi:type="q474:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U32_751\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>751</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q475="http://www.w3.org/2001/XMLSchema" xsi:type="q475:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_133\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>133</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q476="http://www.w3.org/2001/XMLSchema" xsi:type="q476:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_27\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>27</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q477="http://www.w3.org/2001/XMLSchema" xsi:type="q477:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_451\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>451</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q478="http://www.w3.org/2001/XMLSchema" xsi:type="q478:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_51\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>51</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q479="http://www.w3.org/2001/XMLSchema" xsi:type="q479:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_669\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>669</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q480="http://www.w3.org/2001/XMLSchema" xsi:type="q480:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U34_793\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>793</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q481="http://www.w3.org/2001/XMLSchema" xsi:type="q481:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_228\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>228</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q482="http://www.w3.org/2001/XMLSchema" xsi:type="q482:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_347\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>347</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q483="http://www.w3.org/2001/XMLSchema" xsi:type="q483:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_400\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>400</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q484="http://www.w3.org/2001/XMLSchema" xsi:type="q484:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_677\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>677</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q485="http://www.w3.org/2001/XMLSchema" xsi:type="q485:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_835\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>835</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q486="http://www.w3.org/2001/XMLSchema" xsi:type="q486:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U4_988\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>988</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q487="http://www.w3.org/2001/XMLSchema" xsi:type="q487:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_312\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>312</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q488="http://www.w3.org/2001/XMLSchema" xsi:type="q488:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_354\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>354</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q489="http://www.w3.org/2001/XMLSchema" xsi:type="q489:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_429\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>429</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q490="http://www.w3.org/2001/XMLSchema" xsi:type="q490:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_468\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>468</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q491="http://www.w3.org/2001/XMLSchema" xsi:type="q491:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_621\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>621</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q492="http://www.w3.org/2001/XMLSchema" xsi:type="q492:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U6_731\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>731</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q493="http://www.w3.org/2001/XMLSchema" xsi:type="q493:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_181\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>181</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q494="http://www.w3.org/2001/XMLSchema" xsi:type="q494:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_393\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>393</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q495="http://www.w3.org/2001/XMLSchema" xsi:type="q495:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_569\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>569</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q496="http://www.w3.org/2001/XMLSchema" xsi:type="q496:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_685\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>685</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q497="http://www.w3.org/2001/XMLSchema" xsi:type="q497:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_716\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>716</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q498="http://www.w3.org/2001/XMLSchema" xsi:type="q498:string">E:\SamScott\WindFiles\IEA15MW\dlc6.4\U8_973\WindFile.wnd</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>973</Value>
+            </To>
+          </Pair>
+        </Pairs>
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <SequenceStartValue>0</SequenceStartValue>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>999</Value>
+        </RandomGenMax>
+        <IsFromWindFile>true</IsFromWindFile>
+        <WindFileValueCanBeOverridden>false</WindFileValueCanBeOverridden>
+        <IsTurbulenceIntensity>false</IsTurbulenceIntensity>
+        <IsPopulatedFromStandards>false</IsPopulatedFromStandards>
+        <SelectedStandardToPopulateFrom>IECEdition3ClassA</SelectedStandardToPopulateFrom>
+        <TurbulenceParams xsi:type="IECEd3NormTurbulenceParameters">
+          <Iref>0.16</Iref>
+          <b>5.6</b>
+        </TurbulenceParams>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[12]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>999</Value>
+      </RandomGenMax>
+      <WindFileHeaderComponent>TurbulenceSeed</WindFileHeaderComponent>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.Simulation.IdlingControl.IdlingPitchAngle</Path>
+      <DefinitionType>SpecificValues</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>0.017453292519943295</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>Letters_LowerCase</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[13]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues>
+        <DoubleSpecificValue>
+          <Value>1.5707963267948966</Value>
+        </DoubleSpecificValue>
+      </SpecificValues>
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>0.017453292519943295</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+  </SetupItems>
+  <PathExpression>
+    <Items>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>U</Text>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+        <SelectedItem>
+          <NodePath>MultipleSetup.SetupItems[8]</NodePath>
+        </SelectedItem>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>_Y</Text>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+        <SelectedItem>
+          <NodePath>MultipleSetup.SetupItems[7]</NodePath>
+        </SelectedItem>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>_</Text>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+        <SelectedItem>
+          <NodePath>MultipleSetup.SetupItems[12]</NodePath>
+        </SelectedItem>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>\powprod</Text>
+      </ExpressionItemBase>
+    </Items>
+  </PathExpression>
+  <UserVariables />
+</MultipleSetup>

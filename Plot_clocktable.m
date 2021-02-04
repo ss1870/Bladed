@@ -1,4 +1,4 @@
-function Plot_clocktable(clockface_table, iCS)
+function Plot_clocktable(clockface_table, iCS, names)
 
     theta = linspace(0, 330, size(clockface_table,2));
     unit_vec = [0;1;0]; % start is flapwise toward tower
@@ -13,6 +13,11 @@ function Plot_clocktable(clockface_table, iCS)
         clock_loads = clockface_table(iCS,:,i).*unit_vec_i(1:2,:);
         clock_loads = [clock_loads,clock_loads(:,1)];
         plot(clock_loads(2,:), clock_loads(1,:),'-o')
+    end
+    if ~isempty(names)
+        legend(names)
+    else
+        legend
     end
     axis equal, grid on
     xlabel('Flapwise load'), ylabel('Edgewise ;load'), title(['Cross section ID: ', num2str(iCS)])

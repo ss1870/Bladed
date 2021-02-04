@@ -1,4 +1,4 @@
-function [clockface_table, extreme_loads, unit_vec_i] = PostProcessLoads(input, PLOT)
+function [clockface_table, extreme_loads, unit_vec_i] = PostProcessLoads(input, PLOT, SF)
 
 span_loc = input.span_loc;
 
@@ -22,9 +22,9 @@ for i_th = 1:length(theta)
     
     [max_M, t_ID] = max(M_proj, [], 3);
     for iCS = 1:length(span_loc)
-        extreme_loads(iCS,:,i_th) = input.dat(:,iCS,t_ID(iCS));
+        extreme_loads(iCS,:,i_th) = input.dat(:, iCS, t_ID(iCS))*SF;
     end
-    clockface_table(:,i_th) = max_M;     
+    clockface_table(:,i_th) = max_M*SF;     
 end
 
 if PLOT
