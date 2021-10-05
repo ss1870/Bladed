@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MultipleSetup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Application>Bladed</Application>
+  <AppVersion>4.8.0.41</AppVersion>
+  <AppDataModelVersion>0.8</AppDataModelVersion>
+  <SetupItems>
+    <MultiSetupItemBase xsi:type="DoubleMultiSetupItem">
+      <Path>NewGUI.PreProcessing.TurbulenceGeneration.MeanSpeed</Path>
+      <DefinitionType>Range</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="DoubleMappingDefinition">
+        <ReferencedItem />
+        <Pairs />
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>2</AutoGenCount>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>1</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[0]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>4</From>
+        <To>26</To>
+        <Step>2</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>1</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+    <MultiSetupItemBase xsi:type="IntMultiSetupItem">
+      <Path>NewGUI.PreProcessing.TurbulenceGeneration.TurbulenceSeed</Path>
+      <DefinitionType>Mapping</DefinitionType>
+      <Expression>
+        <Items>
+          <ExpressionItemBase xsi:type="ExpressionTextItem">
+            <Text />
+          </ExpressionItemBase>
+        </Items>
+      </Expression>
+      <MultiLineExpression>
+        <ExpressionLines />
+      </MultiLineExpression>
+      <Mapping xsi:type="IntMappingDefinition">
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[0]</NodePath>
+        </ReferencedItem>
+        <Pairs>
+          <Pair>
+            <From xmlns:q1="http://www.w3.org/2001/XMLSchema" xsi:type="q1:double">4</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>38</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q2="http://www.w3.org/2001/XMLSchema" xsi:type="q2:double">4</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>489</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q3="http://www.w3.org/2001/XMLSchema" xsi:type="q3:double">4</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>149</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q4="http://www.w3.org/2001/XMLSchema" xsi:type="q4:double">4</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>746</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q5="http://www.w3.org/2001/XMLSchema" xsi:type="q5:double">4</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>879</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q6="http://www.w3.org/2001/XMLSchema" xsi:type="q6:double">4</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>905</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q7="http://www.w3.org/2001/XMLSchema" xsi:type="q7:double">6</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>927</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q8="http://www.w3.org/2001/XMLSchema" xsi:type="q8:double">6</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>469</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q9="http://www.w3.org/2001/XMLSchema" xsi:type="q9:double">6</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>217</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q10="http://www.w3.org/2001/XMLSchema" xsi:type="q10:double">6</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>822</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q11="http://www.w3.org/2001/XMLSchema" xsi:type="q11:double">6</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>970</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q12="http://www.w3.org/2001/XMLSchema" xsi:type="q12:double">6</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>785</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q13="http://www.w3.org/2001/XMLSchema" xsi:type="q13:double">8</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>381</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q14="http://www.w3.org/2001/XMLSchema" xsi:type="q14:double">8</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>20</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q15="http://www.w3.org/2001/XMLSchema" xsi:type="q15:double">8</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>911</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q16="http://www.w3.org/2001/XMLSchema" xsi:type="q16:double">8</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>95</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q17="http://www.w3.org/2001/XMLSchema" xsi:type="q17:double">8</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>404</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q18="http://www.w3.org/2001/XMLSchema" xsi:type="q18:double">8</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>523</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q19="http://www.w3.org/2001/XMLSchema" xsi:type="q19:double">10</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>592</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q20="http://www.w3.org/2001/XMLSchema" xsi:type="q20:double">10</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>303</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q21="http://www.w3.org/2001/XMLSchema" xsi:type="q21:double">10</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>229</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q22="http://www.w3.org/2001/XMLSchema" xsi:type="q22:double">10</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>165</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q23="http://www.w3.org/2001/XMLSchema" xsi:type="q23:double">10</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>653</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q24="http://www.w3.org/2001/XMLSchema" xsi:type="q24:double">10</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>58</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q25="http://www.w3.org/2001/XMLSchema" xsi:type="q25:double">12</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>50</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q26="http://www.w3.org/2001/XMLSchema" xsi:type="q26:double">12</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>914</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q27="http://www.w3.org/2001/XMLSchema" xsi:type="q27:double">12</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>321</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q28="http://www.w3.org/2001/XMLSchema" xsi:type="q28:double">12</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>878</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q29="http://www.w3.org/2001/XMLSchema" xsi:type="q29:double">12</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>439</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q30="http://www.w3.org/2001/XMLSchema" xsi:type="q30:double">12</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>360</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q31="http://www.w3.org/2001/XMLSchema" xsi:type="q31:double">14</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>357</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q32="http://www.w3.org/2001/XMLSchema" xsi:type="q32:double">14</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>231</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q33="http://www.w3.org/2001/XMLSchema" xsi:type="q33:double">14</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>855</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q34="http://www.w3.org/2001/XMLSchema" xsi:type="q34:double">14</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>539</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q35="http://www.w3.org/2001/XMLSchema" xsi:type="q35:double">14</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>793</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q36="http://www.w3.org/2001/XMLSchema" xsi:type="q36:double">14</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>83</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q37="http://www.w3.org/2001/XMLSchema" xsi:type="q37:double">16</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>615</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q38="http://www.w3.org/2001/XMLSchema" xsi:type="q38:double">16</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>988</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q39="http://www.w3.org/2001/XMLSchema" xsi:type="q39:double">16</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>881</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q40="http://www.w3.org/2001/XMLSchema" xsi:type="q40:double">16</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>898</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q41="http://www.w3.org/2001/XMLSchema" xsi:type="q41:double">16</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>455</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q42="http://www.w3.org/2001/XMLSchema" xsi:type="q42:double">16</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>437</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q43="http://www.w3.org/2001/XMLSchema" xsi:type="q43:double">18</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>972</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q44="http://www.w3.org/2001/XMLSchema" xsi:type="q44:double">18</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>151</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q45="http://www.w3.org/2001/XMLSchema" xsi:type="q45:double">18</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>353</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q46="http://www.w3.org/2001/XMLSchema" xsi:type="q46:double">18</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>362</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q47="http://www.w3.org/2001/XMLSchema" xsi:type="q47:double">18</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>524</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q48="http://www.w3.org/2001/XMLSchema" xsi:type="q48:double">18</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>779</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q49="http://www.w3.org/2001/XMLSchema" xsi:type="q49:double">20</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>594</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q50="http://www.w3.org/2001/XMLSchema" xsi:type="q50:double">20</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>314</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q51="http://www.w3.org/2001/XMLSchema" xsi:type="q51:double">20</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>184</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q52="http://www.w3.org/2001/XMLSchema" xsi:type="q52:double">20</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>140</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q53="http://www.w3.org/2001/XMLSchema" xsi:type="q53:double">20</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>771</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q54="http://www.w3.org/2001/XMLSchema" xsi:type="q54:double">20</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>82</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q55="http://www.w3.org/2001/XMLSchema" xsi:type="q55:double">22</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>108</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q56="http://www.w3.org/2001/XMLSchema" xsi:type="q56:double">22</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>868</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q57="http://www.w3.org/2001/XMLSchema" xsi:type="q57:double">22</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>830</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q58="http://www.w3.org/2001/XMLSchema" xsi:type="q58:double">22</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>92</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q59="http://www.w3.org/2001/XMLSchema" xsi:type="q59:double">22</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>693</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q60="http://www.w3.org/2001/XMLSchema" xsi:type="q60:double">22</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>962</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q61="http://www.w3.org/2001/XMLSchema" xsi:type="q61:double">24</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>583</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q62="http://www.w3.org/2001/XMLSchema" xsi:type="q62:double">24</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>44</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q63="http://www.w3.org/2001/XMLSchema" xsi:type="q63:double">24</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>31</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q64="http://www.w3.org/2001/XMLSchema" xsi:type="q64:double">24</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>851</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q65="http://www.w3.org/2001/XMLSchema" xsi:type="q65:double">24</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>468</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q66="http://www.w3.org/2001/XMLSchema" xsi:type="q66:double">24</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>735</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q67="http://www.w3.org/2001/XMLSchema" xsi:type="q67:double">26</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>929</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q68="http://www.w3.org/2001/XMLSchema" xsi:type="q68:double">26</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>839</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q69="http://www.w3.org/2001/XMLSchema" xsi:type="q69:double">26</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>225</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q70="http://www.w3.org/2001/XMLSchema" xsi:type="q70:double">26</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>823</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q71="http://www.w3.org/2001/XMLSchema" xsi:type="q71:double">26</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>479</Value>
+            </To>
+          </Pair>
+          <Pair>
+            <From xmlns:q72="http://www.w3.org/2001/XMLSchema" xsi:type="q72:double">26</From>
+            <To xsi:type="IntSpecificValue">
+              <Value>415</Value>
+            </To>
+          </Pair>
+        </Pairs>
+        <GenerateType>Random</GenerateType>
+        <RandomGenSeed>0</RandomGenSeed>
+        <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+        <AutoGenCount>6</AutoGenCount>
+        <SequenceStartValue>0</SequenceStartValue>
+        <RandomGenMin>
+          <Value>0</Value>
+        </RandomGenMin>
+        <RandomGenMax>
+          <Value>999</Value>
+        </RandomGenMax>
+      </Mapping>
+      <TagScheme>UseValue</TagScheme>
+      <TagSchemeMapping>
+        <ReferencedItem>
+          <NodePath>MultipleSetup.SetupItems[1]</NodePath>
+        </ReferencedItem>
+        <Pairs />
+      </TagSchemeMapping>
+      <RandomGenSeed>0</RandomGenSeed>
+      <RandomGenSpecifySeed>false</RandomGenSpecifySeed>
+      <AutoGenCount>3</AutoGenCount>
+      <Range>
+        <From>0</From>
+        <To>0</To>
+        <Step>0</Step>
+      </Range>
+      <SpecificValues />
+      <RandomGenMin>
+        <Value>0</Value>
+      </RandomGenMin>
+      <RandomGenMax>
+        <Value>999</Value>
+      </RandomGenMax>
+    </MultiSetupItemBase>
+  </SetupItems>
+  <PathExpression>
+    <Items>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>WindFile_</Text>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+        <SelectedItem>
+          <NodePath>MultipleSetup.SetupItems[0]</NodePath>
+        </SelectedItem>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text>ms_seed</Text>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionReferenceItem">
+        <SelectedItem>
+          <NodePath>MultipleSetup.SetupItems[1]</NodePath>
+        </SelectedItem>
+      </ExpressionItemBase>
+      <ExpressionItemBase xsi:type="ExpressionTextItem">
+        <Text />
+      </ExpressionItemBase>
+    </Items>
+  </PathExpression>
+  <UserVariables>
+    <UserVariable xsi:type="UserVariableDouble">
+      <Name>Dir change amp absolute</Name>
+    </UserVariable>
+    <UserVariable xsi:type="UserVariableString">
+      <Name>Amplitude of direction change tag</Name>
+    </UserVariable>
+    <UserVariable xsi:type="UserVariableString">
+      <Name>WindShearType</Name>
+    </UserVariable>
+    <UserVariable xsi:type="UserVariableDouble">
+      <Name>Sigma1</Name>
+    </UserVariable>
+    <UserVariable xsi:type="UserVariableDouble">
+      <Name>ShearEquation</Name>
+    </UserVariable>
+  </UserVariables>
+</MultipleSetup>
